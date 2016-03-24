@@ -14,8 +14,8 @@ app.config([
     templateUrl: 'app/index.html',
     controller: 'HomeCtrl'
   })
-  .state('recipeShow', {
-    url: '/recipes/:id',
+  .state('balloonShow', {
+    url: '/balloons/:id',
     templateUrl: 'app/views/showBalloon.html',
     controller: 'ShowCtrl'
   })
