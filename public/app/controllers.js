@@ -10,9 +10,10 @@ angular.module('BalloonCtrls', ['BalloonServices'])
 }])
 .controller('ShowCtrl', ['$scope', '$stateParams', 'Balloon', function($scope, $stateParams, Balloon) {
   $scope.balloons = {};
-
+  console.log($scope.balloons);
   Balloon.get({id: $stateParams.id}, function success(data) {
     $scope.balloons = data;
+    console.log(data);
   }, function error(data) {
     console.log(data);
   });
