@@ -1,5 +1,5 @@
 var express = require('express');
-var Balloon = require('../models/Balloon');
+var Balloon = require('../models/balloon');
 var router = express.Router();
 
 router.route('/')
