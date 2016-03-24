@@ -1,5 +1,5 @@
 angular.module('BalloonCtrls', ['BalloonServices'])
-.controller('HomeCtrl', ['$scope', 'Balloon', function($scope, Balloon) {
+.controller('ShowAllCtrl', ['$scope', 'Balloon', function($scope, Balloon) {
   $scope.balloons = [];
 
   Balloon.query(function success(data) {
