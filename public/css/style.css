@@ -16,3 +16,15 @@
       color: transparent;
       background: transparent;
 }
+
+.balloon-display {
+  display:inline-block;
+  width:200px;
+  margin-left: 5em;
+  margin-bottom: 1em;
+}
+
+.balloon-images {
+  width: 220px;
+  height: 200px;
+}
