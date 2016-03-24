@@ -30,6 +30,7 @@ angular.module('BalloonCtrls', ['BalloonServices'])
     
 .controller('SignupCtrl', ['$scope', '$http', '$location', function($scope, $http, $location) {
   $scope.user = {
+    name: '',
     email: '',
     password: ''
   };
