@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "balloon-animals",
+=======
+  "name": "balloon_animals",
+>>>>>>> 5b4712baf1f967dbc415b77a306b69bde04c5303
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +12,30 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/Nepios/balloon_animals.git"
+=======
+    "url": "git+https://github.com/michaelscotthurley/balloon_animals.git"
+>>>>>>> 5b4712baf1f967dbc415b77a306b69bde04c5303
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/Nepios/balloon_animals/issues"
   },
   "homepage": "https://github.com/Nepios/balloon_animals#readme"
+=======
+    "url": "https://github.com/michaelscotthurley/balloon_animals/issues"
+  },
+  "homepage": "https://github.com/michaelscotthurley/balloon_animals#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-jwt": "^3.3.0",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.10"
+  }
+>>>>>>> 5b4712baf1f967dbc415b77a306b69bde04c5303
 }
