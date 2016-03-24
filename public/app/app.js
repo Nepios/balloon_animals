@@ -11,7 +11,7 @@ app.config([
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'app/index.html',
+    templateUrl: 'app/views/home.html',
   })
   .state('allBalloons', {
     url:'/balloons',
