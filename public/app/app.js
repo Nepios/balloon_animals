@@ -12,7 +12,11 @@ app.config([
   .state('home', {
     url: '/',
     templateUrl: 'app/index.html',
-    controller: 'HomeCtrl'
+  })
+  .state('allBalloons', {
+    url:'/balloons',
+    templateUrl: 'app/views/allBalloons.html',
+    controller: 'ShowAllCtrl'
   })
   .state('balloonShow', {
     url: '/balloons/:id',
