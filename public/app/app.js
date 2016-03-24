@@ -14,7 +14,7 @@ app.config([
     templateUrl: 'app/index.html',
   })
   .state('allBalloons', {
-    url:'/balloons'
+    url:'/balloons',
     templateUrl: 'app/views/allBalloons.html',
     controller: 'ShowAllCtrl'
   })
