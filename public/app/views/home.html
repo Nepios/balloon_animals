@@ -9,4 +9,4 @@
 	<button type="submit" ng-click="search()" class="btn btn-info ">Search</button>
 </form>
 
-<div ng-repeat="result in results">{{ result.name }}</div>
+<div class="well results" ng-repeat="result in results"><a ng-href="/balloons/{{result._id}}">{{ result.name }}</a></div>

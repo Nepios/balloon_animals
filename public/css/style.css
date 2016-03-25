@@ -45,6 +45,10 @@ body {
 
 }
 
+
 .animals{
   background-color: #404040 ;
 }
+.results {
+	margin: 5px;
+  }
