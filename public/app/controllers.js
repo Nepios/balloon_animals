@@ -1,4 +1,4 @@
-angular.module('BalloonCtrls', ['BalloonServices'])
+angular.module('BalloonCtrls', ['BalloonServices', 'youtube-embed'])
 .controller('ShowAllCtrl', ['$scope', 'Balloon', function($scope, Balloon) {
   $scope.balloons = [];
 
@@ -13,7 +13,8 @@ angular.module('BalloonCtrls', ['BalloonServices'])
   console.log($scope.balloons);
   Balloon.get({id: $stateParams.id}, function success(data) {
     $scope.balloons = data;
-    console.log(data);
+    $scope.theBestVideo = data.link;
+    console.log("Success!", data);
   }, function error(data) {
     console.log(data);
   });
