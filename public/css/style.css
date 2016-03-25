@@ -20,11 +20,17 @@
 .balloon-display {
   display:inline-block;
   width:200px;
-  margin-left: 5em;
   margin-bottom: 1em;
+  margin-right: 3em;
 }
 
 .balloon-images {
   width: 220px;
   height: 200px;
+}
+
+#pictureholder {
+  width:1000px;
+  margin-left: 75px;
+  margin-right: 75px;
 }

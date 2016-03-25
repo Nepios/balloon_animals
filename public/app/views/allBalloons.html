@@ -1,16 +1,11 @@
 <h1 class="text-center">Get yer balloons</h1>
 <p class="lead text-center">Click on the picture of an animal below to learn how to make it into a balloon!</p>
 
-<div class="form-group">
-  <label for="search">Search</label>
-  <input type="text" class="form-control" id="search" ng-model="search">
-</div>
-
 <div class="well">
   <div class="row-fluid">
       <div class="span12">
         <div style="overflow:hidden;width:100%;">
-          <div style="width:1000px;">
+          <div id="pictureholder">
               <div class="balloon-display" ng-repeat="balloon in balloons">
                 <a ng-href="/balloons/{{balloon._id}}"><img ng-src="{{balloon.image}}" class="balloon-images"></a><br>
                 <h3 class="text-center"><strong> {{ balloon.name }} </strong></h3>
