@@ -1,2 +1,12 @@
 <h1>Balloon Home</h1>
 <p>Search for Balloons. Checkout All the Balloons.</p>
+
+<form class="form-inline centered">
+	<div class="form-group">
+		<label for="search">Search</label>
+		<input type="text" ng-model="searchTerm" placeholder="Search for Balloons" id="search" class="form-control">
+	</div>
+	<button type="submit" ng-click="search()" class="btn btn-info ">Search</button>
+</form>
+
+<div ng-repeat="result in results">{{ result.name }}</div>

@@ -1,13 +1,17 @@
+* {
+	color: white;
+}
+
 .navbar {
 	background-color: transparent;
-	color: black;
+	
 }
 .navbar a {
-    color: blue;
+    
 }
 
 .navbar-default .navbar-nav > .active{
-    color: transparent;
+   color: transparent;
    background: transparent;
 }
 .navbar-default .navbar-nav > .active > a, 
@@ -15,4 +19,9 @@
 .navbar-default .navbar-nav > .active > a:focus {
       color: transparent;
       background: transparent;
+}
+body {
+	background-image: url("ferriswheel.jpg");
+	background-size: cover;
+	
 }
