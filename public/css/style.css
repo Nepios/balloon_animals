@@ -1,13 +1,17 @@
+* {
+	color: white;
+}
+
 .navbar {
 	background-color: transparent;
-	color: black;
+	
 }
 .navbar a {
-    color: blue;
+    
 }
 
 .navbar-default .navbar-nav > .active{
-    color: transparent;
+   color: transparent;
    background: transparent;
 }
 .navbar-default .navbar-nav > .active > a, 
@@ -16,6 +20,7 @@
       color: transparent;
       background: transparent;
 }
+
 
 .balloon-display {
   display:inline-block;
@@ -33,4 +38,9 @@
   width:1000px;
   margin-left: 75px;
   margin-right: 75px;
+
+body {
+	background-image: url("ferriswheel.jpg");
+	background-size: cover;
+
 }
