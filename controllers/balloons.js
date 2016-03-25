@@ -16,6 +16,18 @@ router.route('/')
     });
   });
 
+router.get('/search', function(req, res) {
+  var searchTerm = req.query.searchTerm;
+  console.log(searchTerm)
+  Balloon.find({
+    name: { 
+      $regex: new RegExp(searchTerm, 'i')
+    } 
+  }).exec(function(err, balloon){
+    res.send(balloon);
+  });
+})
+
 router.route('/:id')
   .get(function(req, res) {
     Balloon.findById(req.params.id, function(err, Balloon) {

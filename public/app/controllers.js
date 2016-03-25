@@ -56,4 +56,21 @@ angular.module('BalloonCtrls', ['BalloonServices', 'youtube-embed'])
     console.log(res);
    })
   }
+
+}])
+.controller('SearchCtrl', ['$scope', '$http', function($scope, $http) {
+  $scope.searchTerm = '';
+  $scope.search = function() {
+    $http( {
+      url: "/api/balloons/search",
+      method: "GET",
+      params: {
+        searchTerm: $scope.searchTerm
+      }
+    }).then(function success(res) {
+      $scope.results = res.data;
+    }, function error(res) {
+      console.log(res);
+    })
+  }
 }]);

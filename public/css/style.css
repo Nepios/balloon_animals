@@ -1,13 +1,17 @@
+* {
+	color: white;
+}
+
 .navbar {
 	background-color: transparent;
-	color: black;
+	
 }
 .navbar a {
-    color: blue;
+    
 }
 
 .navbar-default .navbar-nav > .active{
-    color: transparent;
+   color: transparent;
    background: transparent;
 }
 .navbar-default .navbar-nav > .active > a, 
@@ -15,4 +19,28 @@
 .navbar-default .navbar-nav > .active > a:focus {
       color: transparent;
       background: transparent;
+}
+
+
+.balloon-display {
+  display:inline-block;
+  width:200px;
+  margin-bottom: 1em;
+  margin-right: 3em;
+}
+
+.balloon-images {
+  width: 220px;
+  height: 200px;
+}
+
+#pictureholder {
+  width:1000px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+body {
+	background-image: url("ferriswheel.jpg");
+	background-size: cover;
+
 }
