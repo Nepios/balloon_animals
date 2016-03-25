@@ -39,6 +39,16 @@
   margin-left: 75px;
   margin-right: 75px;
 }
+
+.vidFrame {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.vidbutton {
+  float: right;
+}
 body {
 	background-image: url("ferriswheel.jpg");
 	background-size: cover;
