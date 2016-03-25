@@ -9,7 +9,7 @@ var secret = "mysupersecretpassword";
 
 var mongoose = require('mongoose');
 var User = require('./models/user');
-var mongodbUri = 'mongodb://heroku_cbqvf1l9:2r54seaf7eoh0mojhs7u2mpdho@ds055515.mlab.com:55515/heroku_cbqvf1l9'
+var mongodbUri = process.env.MONGO;
 mongoose.connect(mongodbUri);
 
 app.use(bodyParser.json());
