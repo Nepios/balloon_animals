@@ -1,4 +1,4 @@
-var app = angular.module('BalloonApp', ['ui.router', 'BalloonCtrls']);
+var app = angular.module('BalloonApp', ['ui.router', 'BalloonCtrls', 'youtube-embed']);
 
 app.config([
   '$stateProvider',

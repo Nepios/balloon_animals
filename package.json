@@ -1,5 +1,4 @@
 {
-
   "name": "balloon-animals",
   "version": "1.0.0",
   "description": "",
@@ -12,8 +11,8 @@
   },
   "author": "",
   "license": "ISC",
-
   "dependencies": {
+    "angular-youtube-embed": "^1.1.1",
     "bcrypt": "^0.8.5",
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
@@ -21,5 +20,4 @@
     "jsonwebtoken": "^5.7.0",
     "mongoose": "^4.4.10"
   }
-
 }
